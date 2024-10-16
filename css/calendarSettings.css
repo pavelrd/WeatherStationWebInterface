@@ -1,0 +1,66 @@
+body {
+	font-size: 80%;	
+}
+
+.ui-datepicker-next { display: none; }
+.ui-datepicker-prev { display: none; }
+
+.ui-datepicker-year { display:none; }
+
+.birthDays{}
+
+td.highlightBirthdays {border: none !important;padding: 1px 0 1px 1px !important;background: none !important;overflow:hidden;}
+td.highlightBirthdays a {background: #99dd73 url(bg.png) 50% 50% repeat-x !important; }
+
+.freeDays {}
+td.highlightFreeDays {border: none !important;padding: 1px 0 1px 1px !important;background: none !important;overflow:hidden;}
+td.highlightFreeDays a {background: #ffc0c0 !important; border-color: red !important; border-width: 1px solid !important; }
+
+.goodDays{}
+td.highlightGoodDays {border: none !important;padding: 1px 0 1px 1px !important;background: none !important;overflow:hidden;}
+td.highlightGoodDays a {background: #99dd73 url(bg.png) 50% 50% repeat-x !important;  border: 1px #ff0000 solid !important;}
+
+.ui-state-active, .ui-widget-content .ui-state-active {
+  /*any CSS styles you want overriden i.e.*/
+  /*border: 1px solid #999999;*/
+	border: 1px solid #c5c5c5;
+	background-color: #f6f6f6;
+	color: #000000;
+}
+
+.wrapper {
+	width: 99%;
+	height: 90%;
+	position: absolute;
+	background-color: #fff;
+	color: #444;
+}			
+
+#boxBlock{
+  display: table;
+  margin: 0 auto;
+}
+
+.box {
+	margin: 10px;
+	background-color: #444;
+	color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	float:left;
+	text-align:center;
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+.calendar{
+  display: table;
+  margin: 0 auto;
+}
+
+.clear{
+	clear:both
+}
+			

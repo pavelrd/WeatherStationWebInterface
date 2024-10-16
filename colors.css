@@ -1,0 +1,3 @@
+td.highlightBirthdays a { background: #f0bcbc !important; border: 1px #e8afaf solid !important; }
+td.highlightFreeDays a { background: #75f173 !important; border: 1px #cece78 solid !important; }
+td.highlightGoodDays a { background: #eea4a4 !important; border: 1px #ee5757 solid !important; }
